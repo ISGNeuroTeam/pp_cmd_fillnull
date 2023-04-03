@@ -2,7 +2,9 @@
 Postprocessing command "fillnul"
 
 Usage example:
-`... | fillnul`
+`... | fillnul` | default columns to fill NaN values are all.
+`... | fillnul value="no_value` | default value is 0
+`... | fillnul sum dest`
 
 ## Getting started
 ###  Prerequisites
